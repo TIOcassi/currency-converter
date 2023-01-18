@@ -1,0 +1,33 @@
+.form {
+    margin: auto;
+}
+
+.form__header {
+    color: rgb(125, 101, 65);
+}
+
+.form__labelText {
+    width: 150px;
+    max-width: 200px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form__field {
+    background-color: rgb(234, 227, 221);
+    display: inline-block;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: hsl(271, 66%, 58%);
+    color: white;
+    padding: 50px;
+    margin: 20px;
+    width: 500px;
+}
+
+.button:hover {
+    background-color: hsl(271, 61%, 64%)
+}
