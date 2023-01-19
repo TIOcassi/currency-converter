@@ -1,5 +1,7 @@
 # Currency converter
 
+![Krystian](images/image5.png)
+
 ## Demo
 https://tiocassi.github.io/currency-converter/
 
