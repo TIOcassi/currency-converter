@@ -15,11 +15,9 @@
 
 .form__field {
     background-color: rgb(234, 227, 221);
-    display: inline-block;
 }
 
 .button {
-    border: 1px solid;
     border-radius: 15px;
     background-color: hsl(271, 66%, 58%);
     color: white;
