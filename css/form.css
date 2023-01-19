@@ -3,29 +3,35 @@
 }
 
 .form__header {
-    color: rgb(125, 101, 65);
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(215, 131, 131);
 }
 
 .form__labelText {
+    font-weight: bold;
+    font-size: large;
     width: 150px;
-    max-width: 200px;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
+    color: black;
 }
 
 .form__field {
-    background-color: rgb(234, 227, 221);
+    width: 400px;
+    padding: 20px;
 }
 
-.button {
-    border-radius: 15px;
-    background-color: hsl(271, 66%, 58%);
+.form__button {
+    width: 60%;
+    background-color: rgb(65, 52, 58);
     color: white;
-    padding: 50px;
-    margin: 20px;
-    width: 500px;
+    font-size: large;
+    padding: 20px;
+    margin-top: 40px;
+    align-items: center;
 }
 
-.button:hover {
-    background-color: hsl(271, 61%, 64%)
+.form__button:hover {
+    background-color: rgb(215, 131, 131);
 }
