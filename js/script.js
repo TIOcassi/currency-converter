@@ -19,6 +19,9 @@
     const submit = (event) => {
         event.preventDefault();
 
+        const amountElement = document.querySelector(".js-amount");
+        const currencyElement = document.querySelector(".js-currency");
+
         const amount = +amountElement.value;
         const currency = currencyElement.value;
 
@@ -26,8 +29,6 @@
 
         resultText(amount, currency, result);
 
-        const currencyElement = document.querySelector(".js-currency");
-        const amountElement = document.querySelector(".js-amount");
     };
 
     const init = () => {
