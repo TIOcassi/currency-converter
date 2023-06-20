@@ -13,7 +13,8 @@
 
     const resultText = (amount, currency, result) => {
         const resultElement = document.querySelector(".js-result");
-        resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
+        resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>
+        ${result.toFixed(2)} ${currency}</strong>`;
     };
 
     const submit = (event) => {
@@ -36,5 +37,5 @@
         formElement.addEventListener("submit", submit);
     };
 
-    init ();
+    init();
 };
